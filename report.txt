@@ -16,12 +16,12 @@ bgas: 1.714
 ****** MIN / MAX ******
 95: 1.59 (Kemi) - 2.259 (Enonkoski)
 98: 1.659 (Närpiö) - 2.399 (Enonkoski)
-98+: 1.709 (Klaukkala) - 2.049 (Rovaniemi)
+98+: 1.709 (Klaukkala) - 2.049 (Vantaa)
 85: 1.154 (Kotka) - 1.579 (Godby)
 dsl: 1.512 (Forssa) - 2.199 (Parainen)
 dsl+: 1.524 (Kouvola) - 2.029 (Lieksa)
 hvo: 1.736 (Eurajoki) - 2.109 (Koski Tl)
-bgas: 1.4 (Lappeenranta) - 1.898 (Oulu)
+bgas: 1.4 (Lappeenranta) - 1.898 (Tuuri)
 
 ****** STATIONS ******
 ABC: 478
@@ -312,7 +312,7 @@ Kanta-Häme:
 	98+: 1.869 (above average)
 	85: 1.394 (above average)
 	dsl: 1.686 (below average)
-	dsl+: 1.678 (below average)
+	dsl+: 1.679 (below average)
 	hvo: 1.898 (below average)
 	bgas: 1.713 (below average)
 Keski-Pohjanmaa:
@@ -384,3 +384,22 @@ Pohjanmaa:
 	dsl+: 1.679 (below average)
 	hvo: 1.881 (below average)
 	bgas: 1.775 (above average)
+
+****** FUEL PRICES BY STATION ******
+unmanned:
+	95: 1.773 (below average)
+	98: 1.87 (above average)
+	98+: 1.855 (below average)
+	85: 1.35 (above average)
+	dsl: 1.683 (below average)
+	dsl+: 1.678 (below average)
+	hvo: 1.922 (below average)
+	bgas: 1.714 (below average)
+manned:
+	95: 1.781 (above average)
+	98: 1.868 (below average)
+	98+: 1.873 (above average)
+	85: 1.347 (below average)
+	dsl: 1.691 (above average)
+	dsl+: 1.682 (above average)
+	hvo: 1.927 (above average)
