@@ -1,27 +1,27 @@
 
 ****** SUMMARY ******
-Total stations: 2036
-Stations without fuel data: 265
+Total stations: 2035
+Stations without fuel data: 276
 
 ****** AVERAGE PRICES ******
-95: 1.775
-98: 1.869
-98+: 1.867
-85: 1.349
-dsl: 1.686
-dsl+: 1.679
-hvo: 1.924
-bgas: 1.714
+95: 1.764
+98: 1.862
+98+: 1.864
+85: 1.328
+dsl: 1.678
+dsl+: 1.678
+hvo: 1.922
+bgas: 1.695
 
 ****** MIN / MAX ******
-95: 1.59 (Kemi) - 2.259 (Enonkoski)
-98: 1.659 (Närpiö) - 2.399 (Enonkoski)
-98+: 1.709 (Klaukkala) - 2.049 (Vantaa)
-85: 1.154 (Kotka) - 1.579 (Godby)
-dsl: 1.512 (Forssa) - 2.199 (Parainen)
-dsl+: 1.524 (Kouvola) - 2.029 (Lieksa)
-hvo: 1.736 (Eurajoki) - 2.109 (Koski Tl)
-bgas: 1.4 (Lappeenranta) - 1.898 (Tuuri)
+95: 1.587 (Nurmijärvi) - 2.259 (Enonkoski)
+98: 1.678 (Mikkeli) - 2.399 (Enonkoski)
+98+: 1.714 (Savonlinna) - 2.029 (Valkeakoski)
+85: 1.142 (Kotka) - 1.529 (Loimaa)
+dsl: 1.514 (Pieksämäki) - 2.16 (Tampere)
+dsl+: 1.529 (Kouvola) - 2.029 (Lieksa)
+hvo: 1.679 (Eurajoki) - 2.109 (Koski Tl)
+bgas: 0.99 (Joutsa) - 1.898 (Oulu)
 
 ****** STATIONS ******
 ABC: 478
@@ -37,7 +37,7 @@ Ritoil: 3
 Kärkkäinen: 3
 Ysi5: 1
 Keskinen: 1
-Itsenäinen: 57
+Itsenäinen: 56
 M Plus: 1
 Gasum: 42
 Jeppo Biogas: 3
@@ -81,7 +81,7 @@ LähiStoppi: 2
 Express: 334
 Huoltoasema: 312
 Neste K: 67
-Veneasema: 97
+Veneasema: 96
 Miehitetty: 136
 Automatti: 1
 Miehitetty, Express: 1
@@ -94,92 +94,93 @@ Automaatti, Veneasema: 1
 
 ****** AVERAGE FUEL PRICES BY STATION ******
 ABC:
-	95: 1.778 (above average)
-	98: 1.868 (below average)
-	85: 1.356 (above average)
-	dsl: 1.694 (above average)
-	dsl+: 1.674 (below average)
-	hvo: 1.873 (below average)
-Neste:
-	95: 1.794 (above average)
-	98: 1.889 (above average)
-	dsl: 1.7 (above average)
-	hvo: 1.94 (above average)
-SEO:
-	95: 1.787 (above average)
+	95: 1.782 (above average)
 	98: 1.877 (above average)
-	98+: 1.919 (above average)
-	dsl: 1.71 (above average)
+	85: 1.333 (above average)
+	dsl: 1.706 (above average)
+	dsl+: 1.686 (above average)
+	hvo: 1.884 (below average)
+Neste:
+	95: 1.758 (below average)
+	98: 1.859 (below average)
+	dsl: 1.674 (below average)
+	hvo: 1.934 (above average)
+SEO:
+	95: 1.788 (above average)
+	98: 1.878 (above average)
+	98+: 1.873 (above average)
+	dsl: 1.709 (above average)
 	bgas: 1.898 (above average)
 St1:
-	95: 1.765 (below average)
-	98: 1.857 (below average)
-	85: 1.344 (below average)
-	dsl: 1.664 (below average)
-	dsl+: 1.697 (above average)
-	hvo: 1.937 (above average)
-	bgas: 1.71 (below average)
+	95: 1.745 (below average)
+	98: 1.84 (below average)
+	85: 1.325 (below average)
+	dsl: 1.657 (below average)
+	dsl+: 1.65 (below average)
+	hvo: 1.931 (above average)
+	bgas: 1.71 (above average)
 Shell:
-	95: 1.773 (below average)
-	98: 1.937 (above average)
-	98+: 1.866 (below average)
-	85: 1.324 (below average)
-	dsl: 1.677 (below average)
-	hvo: 1.893 (below average)
+	95: 1.752 (below average)
+	98: 1.862 (below average)
+	98+: 1.864 (below average)
+	85: 1.309 (below average)
+	dsl: 1.667 (below average)
+	hvo: 1.93 (above average)
 Teboil:
-	95: 1.744 (below average)
-	98: 1.838 (below average)
-	dsl: 1.651 (below average)
-	hvo: 1.851 (below average)
+	95: 1.749 (below average)
+	98: 1.848 (below average)
+	dsl: 1.657 (below average)
+	hvo: 1.847 (below average)
 Gulf:
-	95: 1.849 (above average)
-	98: 1.987 (above average)
-	dsl: 1.79 (above average)
+	95: 1.852 (above average)
+	98: 1.976 (above average)
+	dsl: 1.773 (above average)
 Seapoint:
-	95: 1.928 (above average)
-	98: 2.082 (above average)
-	dsl: 1.926 (above average)
+	95: 1.899 (above average)
+	98: 2.074 (above average)
+	dsl: 1.922 (above average)
 GT:
-	95: 1.728 (below average)
+	95: 1.773 (above average)
 	98: 2.153 (above average)
-	dsl: 1.886 (above average)
+	dsl: 1.851 (above average)
 Ritoil:
-	95: 1.814 (above average)
-	98: 1.892 (above average)
+	95: 1.799 (above average)
+	98: 1.879 (above average)
 	dsl: 1.719 (above average)
 Kärkkäinen:
-	95: 1.647 (below average)
-	98: 1.747 (below average)
-	dsl: 1.57 (below average)
+	95: 1.655 (below average)
+	98: 1.755 (below average)
+	dsl: 1.599 (below average)
 Ysi5:
 	95: 1.709 (below average)
 	98: 1.809 (below average)
-	dsl: 1.639 (below average)
+	dsl: 1.609 (below average)
 Keskinen:
-	95: 1.779 (above average)
-	98: 1.939 (above average)
-	dsl: 1.679 (below average)
+	95: 1.759 (below average)
+	98: 1.879 (above average)
+	dsl: 1.659 (below average)
 Itsenäinen:
-	95: 1.832 (above average)
-	98: 1.953 (above average)
-	dsl: 1.767 (above average)
-	bgas: 1.833 (above average)
+	95: 1.839 (above average)
+	98: 1.993 (above average)
+	dsl: 1.801 (above average)
+	bgas: 1.87 (above average)
 M Plus:
-	95: 1.927 (above average)
-	98: 2.027 (above average)
-	dsl: 1.827 (above average)
+	95: 1.788 (above average)
+	98: 1.888 (above average)
+	dsl: 1.698 (above average)
 Gasum:
-	bgas: 1.686 (below average)
+	bgas: 1.685 (below average)
 Jeppo Biogas:
-	bgas: 1.67 (below average)
+	bgas: 1.635 (below average)
 ESE:
 	bgas: 1.85 (above average)
 Metener:
+	bgas: 0.99 (below average)
 Lempäälän Lämpö:
 Envor:
 	bgas: 1.65 (below average)
 Mustankorkea Oy:
-	bgas: 1.7 (below average)
+	bgas: 1.7 (above average)
 Kiertokaari:
 	bgas: 1.69 (below average)
 Nivos:
@@ -187,7 +188,7 @@ Leppäkosken Lämpö:
 Suomen Kaasuenergia:
 	bgas: 1.66 (below average)
 BIG:
-	bgas: 1.623 (below average)
+	bgas: 1.72 (above average)
 Wegas:
 	bgas: 1.76 (above average)
 Kiuasniemi:
@@ -200,206 +201,195 @@ Satamakapteeni:
 Kabböle Marina:
 Loviisan Vierasvenesatama:
 Korpo automatstation:
-	98: 1.929 (above average)
-	dsl: 1.819 (above average)
 Sandran Puoti:
 Huoltoasema P. Kauppinen:
 Haapasaaren Osuuskauppa:
 Vieremän biokaasuterminaali:
 Farmikaasu Oy:
 Union Smedsby:
-	95: 1.798 (above average)
-	98: 1.898 (above average)
-	dsl: 1.698 (above average)
 Baggö Marina:
 Heinolan Satama:
 Ojansaaren Biokaasu Oy:
-	bgas: 1.87 (above average)
 Laukaan Satama:
 Ab Monäs Boden:
 Sottungan Vierasvenesatama:
 
 ****** AVERAGE FUEL PRICES BY REGION ******
 Etelä-Pohjanmaa:
-	95: 1.813 (above average)
-	98: 1.917 (above average)
-	98+: 1.819 (below average)
-	85: 1.316 (below average)
-	dsl: 1.727 (above average)
-	dsl+: 1.742 (above average)
-	hvo: 1.997 (above average)
+	95: 1.828 (above average)
+	98: 1.927 (above average)
+	98+: 1.909 (above average)
+	85: 1.309 (below average)
+	dsl: 1.729 (above average)
+	dsl+: 1.753 (above average)
+	hvo: 2.023 (above average)
 	bgas: 1.675 (below average)
 Pohjois-Pohjanmaa:
-	95: 1.752 (below average)
-	98: 1.845 (below average)
-	98+: 1.885 (above average)
-	85: 1.359 (above average)
-	dsl: 1.665 (below average)
-	dsl+: 1.637 (below average)
-	hvo: 1.962 (above average)
-	bgas: 1.798 (above average)
+	95: 1.795 (above average)
+	98: 1.895 (above average)
+	98+: 1.889 (above average)
+	85: 1.348 (above average)
+	dsl: 1.69 (above average)
+	dsl+: 1.727 (above average)
+	hvo: 2.006 (above average)
+	bgas: 1.756 (above average)
 Päijät-Häme:
-	95: 1.786 (above average)
-	98: 1.869 (below average)
-	98+: 1.884 (above average)
-	85: 1.473 (above average)
-	dsl: 1.67 (below average)
-	dsl+: 1.693 (above average)
-	hvo: 1.923 (below average)
-	bgas: 1.68 (below average)
+	95: 1.748 (below average)
+	98: 1.846 (below average)
+	98+: 1.868 (above average)
+	85: 1.451 (above average)
+	dsl: 1.658 (below average)
+	dsl+: 1.638 (below average)
+	hvo: 1.93 (above average)
 Uusimaa:
-	95: 1.776 (above average)
-	98: 1.863 (below average)
-	98+: 1.856 (below average)
-	85: 1.326 (below average)
-	dsl: 1.677 (below average)
-	dsl+: 1.682 (above average)
-	hvo: 1.932 (above average)
+	95: 1.732 (below average)
+	98: 1.833 (below average)
+	98+: 1.852 (below average)
+	85: 1.303 (below average)
+	dsl: 1.65 (below average)
+	dsl+: 1.649 (below average)
+	hvo: 1.915 (below average)
 	bgas: 1.684 (below average)
 Varsinais-Suomi:
-	95: 1.795 (above average)
-	98: 1.9 (above average)
-	98+: 1.919 (above average)
-	85: 1.454 (above average)
-	dsl: 1.699 (above average)
-	dsl+: 1.703 (above average)
-	hvo: 1.94 (above average)
+	95: 1.788 (above average)
+	98: 1.889 (above average)
+	98+: 1.885 (above average)
+	85: 1.447 (above average)
+	dsl: 1.7 (above average)
+	dsl+: 1.685 (above average)
+	hvo: 1.925 (above average)
 	bgas: 1.68 (below average)
 Pirkanmaa:
-	95: 1.805 (above average)
-	98: 1.902 (above average)
-	98+: 1.843 (below average)
-	85: 1.339 (below average)
-	dsl: 1.704 (above average)
-	dsl+: 1.7 (above average)
-	hvo: 1.916 (below average)
-	bgas: 1.68 (below average)
+	95: 1.755 (below average)
+	98: 1.854 (below average)
+	98+: 1.863 (below average)
+	85: 1.312 (below average)
+	dsl: 1.678 (below average)
+	dsl+: 1.671 (below average)
+	hvo: 1.896 (below average)
+	bgas: 1.686 (below average)
 Ahvenanmaa:
-	95: 1.812 (above average)
-	98: 1.912 (above average)
-	85: 1.579 (above average)
-	dsl: 1.719 (above average)
-	dsl+: 1.711 (above average)
+	95: 1.744 (below average)
+	98: 1.844 (below average)
+	dsl+: 1.654 (below average)
 Etelä-Savo:
-	95: 1.745 (below average)
-	98: 1.839 (below average)
-	98+: 1.865 (below average)
-	85: 1.408 (above average)
-	dsl: 1.688 (above average)
-	dsl+: 1.648 (below average)
-	hvo: 1.79 (below average)
+	95: 1.703 (below average)
+	98: 1.8 (below average)
+	98+: 1.718 (below average)
+	85: 1.39 (above average)
+	dsl: 1.637 (below average)
+	dsl+: 1.612 (below average)
+	hvo: 1.868 (below average)
 	bgas: 1.85 (above average)
 Lappi:
-	95: 1.75 (below average)
-	98: 1.838 (below average)
-	98+: 1.913 (above average)
-	85: 1.347 (below average)
-	dsl: 1.659 (below average)
-	dsl+: 1.622 (below average)
-	hvo: 1.871 (below average)
-Satakunta:
-	95: 1.725 (below average)
-	98: 1.803 (below average)
-	98+: 1.753 (below average)
-	85: 1.332 (below average)
-	dsl: 1.634 (below average)
-	dsl+: 1.608 (below average)
-	hvo: 1.893 (below average)
-	bgas: 1.69 (below average)
-Kanta-Häme:
-	95: 1.759 (below average)
-	98: 1.861 (below average)
-	98+: 1.869 (above average)
-	85: 1.394 (above average)
-	dsl: 1.686 (below average)
-	dsl+: 1.679 (below average)
-	hvo: 1.898 (below average)
-	bgas: 1.713 (below average)
-Keski-Pohjanmaa:
-	95: 1.76 (below average)
-	98: 1.847 (below average)
-	98+: 1.814 (below average)
-	85: 1.365 (above average)
-	dsl: 1.678 (below average)
-	dsl+: 1.623 (below average)
-	hvo: 1.869 (below average)
-Kymenlaakso:
-	95: 1.743 (below average)
-	98: 1.836 (below average)
-	98+: 1.757 (below average)
-	85: 1.26 (below average)
-	dsl: 1.641 (below average)
-	dsl+: 1.643 (below average)
-	hvo: 1.873 (below average)
-	bgas: 1.68 (below average)
-Keski-Suomi:
-	95: 1.816 (above average)
-	98: 1.922 (above average)
-	98+: 1.9 (above average)
-	85: 1.374 (above average)
-	dsl: 1.715 (above average)
-	dsl+: 1.753 (above average)
-	hvo: 1.938 (above average)
-	bgas: 1.726 (above average)
-Pohjois-Karjala:
-	95: 1.765 (below average)
-	98: 1.856 (below average)
-	98+: 1.874 (above average)
-	85: 1.341 (below average)
-	dsl: 1.683 (below average)
+	95: 1.746 (below average)
+	98: 1.839 (below average)
+	98+: 1.895 (above average)
+	85: 1.338 (above average)
+	dsl: 1.666 (below average)
 	dsl+: 1.686 (above average)
-	hvo: 1.842 (below average)
+	hvo: 1.926 (above average)
+Satakunta:
+	95: 1.704 (below average)
+	98: 1.795 (below average)
+	98+: 1.817 (below average)
+	85: 1.326 (below average)
+	dsl: 1.631 (below average)
+	dsl+: 1.604 (below average)
+	hvo: 1.843 (below average)
+Kanta-Häme:
+	95: 1.776 (above average)
+	98: 1.873 (above average)
+	98+: 1.866 (above average)
+	85: 1.386 (above average)
+	dsl: 1.669 (below average)
+	dsl+: 1.682 (above average)
+	hvo: 1.902 (below average)
+	bgas: 1.687 (below average)
+Keski-Pohjanmaa:
+	95: 1.801 (above average)
+	98: 1.89 (above average)
+	98+: 1.919 (above average)
+	85: 1.36 (above average)
+	dsl: 1.711 (above average)
+	dsl+: 1.708 (above average)
+	hvo: 1.979 (above average)
+Kymenlaakso:
+	95: 1.764 (below average)
+	98: 1.861 (below average)
+	98+: 1.879 (above average)
+	85: 1.214 (below average)
+	dsl: 1.67 (below average)
+	dsl+: 1.691 (above average)
+	hvo: 1.949 (above average)
+	bgas: 1.705 (above average)
+Keski-Suomi:
+	95: 1.792 (above average)
+	98: 1.9 (above average)
+	98+: 1.911 (above average)
+	85: 1.308 (below average)
+	dsl: 1.702 (above average)
+	dsl+: 1.718 (above average)
+	hvo: 1.94 (above average)
+	bgas: 1.603 (below average)
+Pohjois-Karjala:
+	95: 1.809 (above average)
+	98: 1.91 (above average)
+	98+: 1.918 (above average)
+	85: 1.323 (below average)
+	dsl: 1.712 (above average)
+	dsl+: 1.747 (above average)
+	hvo: 1.94 (above average)
 	bgas: 1.76 (above average)
 Kainuu:
-	95: 1.81 (above average)
-	98: 1.903 (above average)
-	98+: 1.789 (below average)
-	85: 1.329 (below average)
-	dsl: 1.727 (above average)
-	dsl+: 1.705 (above average)
-	hvo: 2.059 (above average)
+	95: 1.811 (above average)
+	98: 1.91 (above average)
+	85: 1.328 (below average)
+	dsl: 1.706 (above average)
+	dsl+: 1.706 (above average)
 Pohjois-Savo:
-	95: 1.736 (below average)
-	98: 1.824 (below average)
-	98+: 1.833 (below average)
-	85: 1.291 (below average)
-	dsl: 1.65 (below average)
-	dsl+: 1.657 (below average)
-	hvo: 1.936 (above average)
+	95: 1.719 (below average)
+	98: 1.811 (below average)
+	98+: 1.78 (below average)
+	85: 1.278 (below average)
+	dsl: 1.63 (below average)
+	dsl+: 1.634 (below average)
+	hvo: 1.876 (below average)
+	bgas: 1.68 (below average)
 Etelä-Karjala:
-	95: 1.745 (below average)
-	98: 1.842 (below average)
-	98+: 1.969 (above average)
-	85: 1.326 (below average)
-	dsl: 1.666 (below average)
-	dsl+: 1.683 (above average)
-	hvo: 1.933 (above average)
-	bgas: 1.587 (below average)
+	95: 1.777 (above average)
+	98: 1.871 (above average)
+	98+: 1.858 (below average)
+	85: 1.311 (below average)
+	dsl: 1.677 (below average)
+	dsl+: 1.734 (above average)
+	hvo: 1.972 (above average)
+	bgas: 1.66 (below average)
 Pohjanmaa:
-	95: 1.791 (above average)
-	98: 1.877 (above average)
-	98+: 1.862 (below average)
-	85: 1.374 (above average)
-	dsl: 1.691 (above average)
-	dsl+: 1.679 (below average)
-	hvo: 1.881 (below average)
-	bgas: 1.775 (above average)
+	95: 1.764 (below average)
+	98: 1.851 (below average)
+	98+: 1.86 (below average)
+	85: 1.357 (above average)
+	dsl: 1.66 (below average)
+	dsl+: 1.662 (below average)
+	hvo: 1.857 (below average)
+	bgas: 1.685 (below average)
 
 ****** FUEL PRICES BY STATION ******
 unmanned:
-	95: 1.773 (below average)
-	98: 1.87 (above average)
-	98+: 1.855 (below average)
-	85: 1.35 (above average)
-	dsl: 1.683 (below average)
-	dsl+: 1.678 (below average)
-	hvo: 1.922 (below average)
-	bgas: 1.714 (below average)
+	95: 1.757 (below average)
+	98: 1.857 (below average)
+	98+: 1.844 (below average)
+	85: 1.326 (below average)
+	dsl: 1.67 (below average)
+	dsl+: 1.676 (below average)
+	hvo: 1.914 (below average)
+	bgas: 1.695 (below average)
 manned:
-	95: 1.781 (above average)
-	98: 1.868 (below average)
-	98+: 1.873 (above average)
-	85: 1.347 (below average)
-	dsl: 1.691 (above average)
-	dsl+: 1.682 (above average)
-	hvo: 1.927 (above average)
+	95: 1.778 (above average)
+	98: 1.874 (above average)
+	98+: 1.875 (above average)
+	85: 1.333 (above average)
+	dsl: 1.693 (above average)
+	dsl+: 1.683 (above average)
+	hvo: 1.935 (above average)
