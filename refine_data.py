@@ -67,7 +67,6 @@ class FuelDataProcessor:
         except json.JSONDecodeError as e:
             print(f"Error decoding JSON: {e}")
 
-
     def calculate_average(self, fuel_data):
         return round(sum(price for price, _ in fuel_data) / len(fuel_data), 3) if fuel_data else 0
 
@@ -110,9 +109,7 @@ class FuelDataProcessor:
         for fuel_type in FUEL_TYPES:
             min_price, max_price = self.calculate_min_max(self.fuel_data[fuel_type])
             if min_price and max_price:
-                output += (
-                    f"{fuel_type}: {min_price[0]} ({min_price[1]}) - {max_price[0]} ({max_price[1]})\n"
-                )
+                output += f"{fuel_type}: {min_price[0]} ({min_price[1]}) - {max_price[0]} ({max_price[1]})\n"
 
         return output
 
