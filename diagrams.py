@@ -1,6 +1,7 @@
 from fuel_data_object import fuel_data
 import pandas as pd
 import numpy as np
+import seaborn as sns
 import matplotlib.pyplot as plt
 
 class ShowDiagrams:
@@ -95,6 +96,28 @@ class ShowDiagrams:
         plt.tight_layout()
 
 
+    def plot_station_prices(self):
+        # Filter out stations with no price data
+        average_fuel_prices_by_station = self.fuel_data["average_fuel_prices_by_station"]
+        filtered_station_data = {station: prices for station, prices in average_fuel_prices_by_station.items() if prices}
+
+        # Select fuel types for comparison and define new labels
+        fuel_types = ["95", "98", "dsl", "bgas"]
+        new_labels = ["95", "98", "Diesel", "Biokaasu"]
+
+        # Filter station data to include only relevant fuel types
+        stations = list(filtered_station_data.keys())
+        prices = np.array([[filtered_station_data[station].get(fuel, np.nan) for fuel in fuel_types] for station in stations])
+
+        # Create a heatmap
+        plt.figure(figsize=(10, 8))
+        sns.heatmap(prices, annot=np.round(prices, 3), fmt=".3f", cmap="coolwarm", xticklabels=new_labels, yticklabels=stations, cbar_kws={'label': 'Hinta (€)'})
+
+        plt.title("Keskimääräiset polttoainehinnat eri bensa-asemilla Suomessa")
+        plt.xlabel("Polttoainetyypit")
+        plt.ylabel("Bensa-asemat")
+        plt.tight_layout()
+
     def plot_average_region_fuels_prices(self):
         # Extract average fuel prices by region, define relevant fuel types and new labels
         region_prices = self.fuel_data["average_fuel_prices_by_region"]
@@ -171,6 +194,46 @@ class ShowDiagrams:
         plt.tight_layout()
 
 
+    def plot_manned_vs_unmannded_stations(self):
+        # Extract fuel prices for manned and unmanned stations
+        station_prices = self.fuel_data["fuel_prices_by_station"]
+        fuel_types = list(station_prices["unmanned"].keys())
+        unmanned_prices = station_prices["unmanned"]
+        manned_prices = station_prices["manned"]
+
+        # Define custom labels for the fuel types
+        custom_labels = ["95", "98", "98+", "85", "Diesel", "Diesel+", "HVO", "Biokaasu"]
+
+        # Get the prices for each fuel type, fill missing values with 0
+        unmanned_prices = [unmanned_prices.get(fuel, 0) for fuel in fuel_types]
+        manned_prices = [manned_prices.get(fuel, 0) for fuel in fuel_types]
+
+        # Create a bar chart for manned and unmanned stations 
+        x = np.arange(len(fuel_types))
+        width = 0.35
+        fig, ax = plt.subplots(figsize=(10, 6))
+        rect1 = ax.bar(x - width / 2, unmanned_prices, width, label='Kylmäasema', color='skyblue')
+        rect2 = ax.bar(x + width / 2, manned_prices, width, label='Miehitetty', color='orange')
+
+        # Add the exact price values on top of the bars
+        for rect in rect1: 
+            height = rect.get_height()
+            ax.text(rect.get_x() + rect.get_width() / 2, height, f'{height:.3f}', ha='center', va='bottom', color='black')
+
+        for rect in rect2: 
+            height = rect.get_height()
+            ax.text(rect.get_x() + rect.get_width() / 2, height + 0.01, f'{height:.3f}', ha='center', va='bottom', color='black')            
+
+        # Set the labels and title
+        ax.set_xlabel('Polttoainetyypit')
+        ax.set_ylabel('Keskiverto hinta (€/l)')
+        ax.set_title('Keskiverto hinta kylmä- ja miehitetyillä asemilla Suomessa')
+        ax.set_xticks(x)
+        ax.set_xticklabels(custom_labels)
+        ax.legend()
+        plt.tight_layout()
+
+        
 
 # Create an instance of ShowDiagrams with the entire fuel_data object
 visualizer = ShowDiagrams(fuel_data)
@@ -189,6 +252,14 @@ plt.show()
 
 # Plot the pie chart for the number of gas stations and show it
 visualizer.plot_pie_chart()
+plt.show()
+
+# Plot the heatmap for station prices and show it
+visualizer.plot_station_prices()
+plt.show()
+
+# Plot the bar chart for manned vs. unmanned stations and show it
+visualizer.plot_manned_vs_unmannded_stations()
 plt.show()
 
 # Plot the horizontal bar chart for min and max prices and show it
